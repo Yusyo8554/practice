@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0 16px;
+    background: #E6EEC9;
+}
+h1 {
+  color: #1f1e33;
+  font-size: 50px;
+}
+ 
+p {
+  color: #1f1e33;
+  line-height: 1.8;
+}
+
+.intro{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#details{
+    background-color: #1f1e33;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.sample-text {
+  color: #1f1e33;        /* 文字色（#RRGGBB形式） */
+  font-size: 16px;       /* 文字サイズ */
+  font-weight: bold;     /* 太字 */
+  text-align: center;    /* 中央揃え */
+}
+
+.card-list {
+  display: flex;          /* Flexboxを有効にする */
+  gap: 16px;              /* 要素間のスキマ */
+  justify-content: center; /* 横方向の揃え方（中央） */
+}
+ 
+.card {
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  padding: 24px;
+  width: 150px;
+  text-align: space-between;
+}
