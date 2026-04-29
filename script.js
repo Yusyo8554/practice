@@ -15,3 +15,8 @@ increment.addEventListener("click", () => {
 reset.addEventListener("click", () => {
   countDisplay.textContent = 0
 })
+
+require('dotenv').config()
+
+console/log(process.env.MY_NAME)
+console.log(process.env.MY_SECRET)
